@@ -2,10 +2,10 @@ import React from "react";
 
 const SpaceBalls = props => {
     return (
-      <Container>
+      <div>
         <div></div>
         <p></p>
-      </Container>
+      </div>
     );
   };
   

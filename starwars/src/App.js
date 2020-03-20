@@ -26,6 +26,15 @@ useEffect(() => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      {star.map((starData, index) => {
+        console.log(starData);
+        return (
+          <SpaceBalls
+            key={index}
+          />
+        );
+      })}
+
     </div>
   );
 }
