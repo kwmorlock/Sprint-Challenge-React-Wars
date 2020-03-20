@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+A library of javascript that is used to build user interfaces, it is opensource. It allows programmers to change data without refreshing the page and is great for bigger projects. It also is really great at telling you what is wrong in the errors compared to vanilla Javascript.  
+
 - [ ] What does it mean to _think_ in react?
+
+To break things down in react by making a single component do a single thing. Creating things such as hierarchies with components to make creating easier. 
 
 - [ ] Describe state.
 
+Data that is displayed by the components.
+
 - [ ] Describe props.
 
+A helper object. Information that is passed from one component from another.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+If something is affected outside the scope of a function that is a sideeffect. Examples are logging and and manipulating data in the DOM.
 
 ## Project Set Up
 
