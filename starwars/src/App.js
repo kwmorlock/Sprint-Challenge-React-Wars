@@ -10,7 +10,7 @@ useEffect(() => {
   axios.get("https://swapi.co/api/people")
   .then(response => {
     console.log(response)
-    setData(response.data);
+    setStar(response.data);
   })
   .catch(error => {
     console.log('wow', error)
