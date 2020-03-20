@@ -32,6 +32,8 @@ useEffect(() => {
           <SpaceBalls
             key={index}
             name={starData.name}
+            height={starData.height}
+            mass={starData.mass}
           />
         );
       })}
